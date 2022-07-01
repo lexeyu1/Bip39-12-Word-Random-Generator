@@ -20,7 +20,7 @@ Command Exntensions:
 '''
 
 CODEWORDS = open('wordlist.txt', 'r').readlines()
-outputtxt = open('12words.txt', 'w')
+outputtxt = open('BIP39words.txt', 'w')
 
 class Usage(Exception):
     def __init__(self, msg):
